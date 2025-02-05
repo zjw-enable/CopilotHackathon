@@ -8,6 +8,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<ProductService>();
 builder.Services.AddAuthorization();
 builder.Services.AddControllers();
+builder.Services.AddRazorPages(); // Add this line
 
 var app = builder.Build();
 
@@ -23,5 +24,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapRazorPages(); // Add this line
 
 app.Run();

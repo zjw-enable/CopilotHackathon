@@ -33,3 +33,6 @@ C:\Projects\CopilotHackathon\src\ShopCartApp\obj\Debug\net8.0\refint\ShopCartApp
 C:\Projects\CopilotHackathon\src\ShopCartApp\obj\Debug\net8.0\ShopCartApp.pdb
 C:\Projects\CopilotHackathon\src\ShopCartApp\obj\Debug\net8.0\ShopCartApp.genruntimeconfig.cache
 C:\Projects\CopilotHackathon\src\ShopCartApp\obj\Debug\net8.0\ref\ShopCartApp.dll
+C:\Projects\CopilotHackathon\src\ShopCartApp\obj\Debug\net8.0\ShopCartApp.RazorAssemblyInfo.cache
+C:\Projects\CopilotHackathon\src\ShopCartApp\obj\Debug\net8.0\ShopCartApp.RazorAssemblyInfo.cs
+C:\Projects\CopilotHackathon\src\ShopCartApp\bin\Debug\net8.0\automobileParts.json

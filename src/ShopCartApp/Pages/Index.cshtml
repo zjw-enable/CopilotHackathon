@@ -1,0 +1,13 @@
+@page
+@model ShopCartApp.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to ShopCartApp</h1>
+    <p class="lead">Browse our collection of automobile parts.</p>
+    <hr class="my-4">
+    <p>Click the button below to view our products.</p>
+    <a class="btn btn-primary btn-lg" asp-page="/Products" role="button">View Products</a>
+</div>

@@ -1,0 +1,24 @@
+@page "{id:int}"
+@model ShopCartApp.Pages.ProductDetailsModel
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>Product Details</h1>
+
+<div>
+    <h2>@Model.Product.Name</h2>
+    <img src="@Model.Product.ImageUrl" alt="@Model.Product.Name" style="max-width: 300px;" />
+    <p><strong>Description:</strong> @Model.Product.Description</p>
+    <p><strong>Manufacturer:</strong> @Model.Product.Manufacturer</p>
+    <p><strong>Price:</strong> @Model.Product.Price.ToString("C")</p>
+    <p><strong>Part Number:</strong> @Model.Product.PartNumber</p>
+    <p><strong>Stock:</strong> @Model.Product.Stock</p>
+    <h3>Specifications</h3>
+    <ul>
+        <li><strong>Weight:</strong> @Model.Product.Specifications.Weight</li>
+        <li><strong>Dimensions:</strong> @Model.Product.Specifications.Dimensions</li>
+        <li><strong>Material:</strong> @Model.Product.Specifications.Material</li>
+    </ul>
+    <a class="btn btn-primary" asp-page="/Products">Back to Products</a>
+</div>
